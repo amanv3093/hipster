@@ -1,0 +1,20 @@
+html,
+body {
+  overflow: hidden; /* Hides both vertical and horizontal scrollbars */
+}
+.hover-effect {
+  font-size: 1.5rem;
+  word-spacing: 0.5rem;
+}
+
+.hover-word {
+  display: inline-block;
+  margin-right: 0.5rem; /* Adjust spacing between words */
+  transition: color 0.3s ease, transform 0.3s ease;
+  cursor: pointer; /* Optional for a pointer effect */
+}
+
+.hover-word:hover {
+  color: #007bff; /* Change to your desired hover color */
+  transform: scale(1.1); /* Optional for a slight zoom effect */
+}
